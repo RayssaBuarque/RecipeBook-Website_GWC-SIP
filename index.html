@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
+<html>
+  <head>
+    <!--Haven't thought about the name of the website yet-->
+    <title>Healthy me! - homepage</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/script.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+    <header>
+      <div class="titleContainer">
+        <img id="header" src="assets/header.jpg" alt="A white table filled with fruits, vegetables, berries and grains.">
+        <div class="titleWebsite"><h1>HEALTHY ME</h1></div>
+        <div class="quote"><h2>To live a better life.</h2></div>
+      </div>
+
+      <nav>
+        <ul>
+          <li class="active"><a title="Homepage" href="index.html">Home</a></li>
+          <li class="nav"><a title="Recipes" href="recipes.html">Recipes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="item">
+          <h3>Did you know?</h3>
+          <p>Eating too much industrialized food not only increases the risk of animal cruelty and concerns environmental issues, but also negatively affects human heath by producing low-quality meals.<br><br>
+            A healthy diet is essential for good nutrition. It protects you against illnesses and chronic diseases.</p>
+          </div>
+
+          <div class="item"><img alt="A white table filled with fruits, vegetables, berries and grains." src="assets/header.jpg"></div>
+
+          <br>
+          
+        </div>
+      </div>
+      
+        <hr>
+
+    <div class= "script">
+      <h3>Don't know what to eat?</h3>
+      <p>Press the button down below to be given a random recipe from our website!!</p>
+
+      <center>
+        <button id="randomBtn">RANDOM RECIPE</button>
+        
+        <div id="randomRecipe">
+          <a id="randomConnect" href="recipes/recipe1.html">
+            <img id="randomPic" class="recPic" alt= "" src="">
+            <h4 id="randomTitle"></h4>
+          </a>
+        </div>
+    </center>
+    </div>
+    </main>
+  </body>
+</html>
