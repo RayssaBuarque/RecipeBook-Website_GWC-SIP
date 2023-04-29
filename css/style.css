@@ -1,0 +1,156 @@
+/* font-family: 'Nunito', sans-serif; - TEXT
+font-family: 'Ropa Sans', sans-serif; - DETAILS
+font-family: 'Signika', sans-serif; - TITLES*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ropa+Sans&family=Signika:wght@600&display=swap');
+
+/* STYLE SECTIONING TAGS */
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: white; 
+}
+
+main img{
+  border-radius: 30px;
+}
+
+img{
+  object-fit: cover;
+  width: 100%;
+  height: 375px;
+  margin:0;
+  display: block;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family:'Signika', sans-serif;
+  margin-bottom:10px;
+  color: white;
+  font-size: 90px;
+  text-shadow: 5px 5px #f98f48;
+  text-align: left;
+}
+
+h2 {
+  font-family:'Ropa Sans', sans-serif;
+  margin-bottom: 15px;
+  color: #ffbc47;
+  text-shadow: 2px 2px #f4740b;
+  font-size: 50px;
+}
+
+h3 {
+  font-family:'Ropa Sans', sans-serif;
+  color: #f4740b;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+/*NAV BAR*/
+nav ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  background-color: #0cc0ab;
+}
+
+nav li{
+  float: left;
+}
+
+nav li a {
+  color: white;
+  padding: 30px 20px 30px 20px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: 'Abel', sans-serif;
+}
+
+.active {
+  display: block;
+  padding: 15px;
+  background-color: #78dddc;
+}
+
+.nav {
+  display: block;
+  padding: 15px;
+  background-color: #0cc0ab;
+}
+
+.nav:hover {
+  background-color: #14173A;
+}
+
+/*WEBSITE TITLE*/
+.titleContainer{
+  position: relative;  
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin:0;
+}
+
+.titleWebsite {
+  position: absolute;
+  bottom: 60px;
+  left: 25px;
+  font-size: 60px;
+}
+
+.quote {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+}
+
+/*GENERAL TEXT ALIGNMENT*/
+.container{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 20px;
+}
+
+.item{
+  width: 50%;
+  margin: 20px 15px;
+}
+
+/*RECIPES STUFF*/
+.imgRecipe{
+ filter: grayscale(100%);
+-webkit-filter: grayscale(100%)
+}
+
+#header{
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%)
+}
+
+.recPic{
+  border-radius: 30px 30px 0 0;
+  height: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: #14173A;
+}
+
+h4{
+  font-family: 'Ropa Sans', sans-serif;
+  background-color: #ffbc47;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 0 0 30px 30px;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  margin-left: 15px;
+  font-size: 18px;
+}

@@ -1,0 +1,78 @@
+/* font-family: 'Nunito', sans-serif; - TEXT
+font-family: 'Ropa Sans', sans-serif; - DETAILS
+font-family: 'Signika', sans-serif; - TITLES*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ropa+Sans&family=Signika:wght@600&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.table,
+.ingredients{
+  width: 50%;
+  margin: 20px 15px;
+  margin-left:55px;
+}
+
+.ingredients li{
+  margin-left: 35px;
+  font-family: 'Nunito', sans-serif; 
+}
+
+table{
+  border-collapse: collapse;
+  
+}
+
+table, th, td{
+  border: 1px solid #f4740b;
+  padding: 10px;
+  background-color: #ffbc47;
+  text-align: left;
+  color: white;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 20px;
+}
+
+.picRecipe{
+  border-radius:35px;
+  margin-left: 45px;
+  width:50%;
+}
+
+.stepBstep{
+  margin: 75px 250px  100px;
+}
+
+.stepBstep p{
+  font-family: 'Nunito', sans-serif;
+  margin-left: 25px;
+  line-height: 2;
+  font-size: 18px;
+}
+
+.tableDisplay{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color:  #0cc0ab;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color:  #78dddc;
+}
