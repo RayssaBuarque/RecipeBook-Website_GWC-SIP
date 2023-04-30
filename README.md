@@ -1,5 +1,5 @@
-# RecipeWebsite_GWC-SIP
-This is a small website project to share healthy recipes!
+# Healthy Me! (GWC-SIP 2023)
+This is a website project to share healthy recipes!
 
 ![image](https://user-images.githubusercontent.com/102766434/235318289-00d7747e-2778-4471-8518-7ebb15ecf0c5.png)
 
