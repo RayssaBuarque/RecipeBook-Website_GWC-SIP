@@ -7,6 +7,8 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/aos.css">
+
   </head>
 
   <body>
@@ -27,7 +29,7 @@
 
     <main>
       <div class="container">
-        <div class="item">
+        <div class="item" data-aos="fade-down">
           <a href="recipes/recipe1.html">
             <img class="recPic" alt= "
 A portion of golden curried chicken and potato traybake." src="assets/recipes/recipe1.jpg">
@@ -35,21 +37,21 @@ A portion of golden curried chicken and potato traybake." src="assets/recipes/re
           </a>
         </div>
         
-        <div class="item">
+        <div class="item" data-aos="fade-down">
           <a href="recipes/recipe2.html">
             <img class="recPic" src="assets/recipes/recipe2.jpg">
             <h4>Potato, pea & egg curry rotis</h4>
           </a>
         </div>
         
-        <div class="item">
+        <div class="item" data-aos="fade-down">
           <a href="recipes/recipe3.html">
             <img class="recPic" src="assets/recipes/recipe3.jpg">
             <h4>Banana Oatmeal Yogurt Pancakes</h4>
           </a>
         </div>
         
-        <div class="item">
+        <div class="item" data-aos="fade-down">
           <a href="recipes/recipe4.html">
             <img class="recPic" src="assets/recipes/recipe4.jpg">
             <h4>Red lentil & carrot soup</h4>
@@ -57,5 +59,12 @@ A portion of golden curried chicken and potato traybake." src="assets/recipes/re
         </div>
       </div>
     </main>
+    <script src="../aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      }
+      );
+    </script>
   </body>
 </html>

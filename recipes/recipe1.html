@@ -10,6 +10,8 @@
 	  <!-- link the webpage's stylesheet -->
 	  <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/styleRecipe.css" />
+    <link rel="stylesheet" href="../css/aos.css">
+
   </head>
 
   <body>
@@ -75,7 +77,7 @@
         </div> 
         </div>
          
-        <img class="picRecipe" src="../assets/recipes/recipe1.jpg">
+        <img class="picRecipe" src="../assets/recipes/recipe1.jpg" data-aos="fade-left">
       </div>
 
       <hr>
@@ -98,6 +100,13 @@
         <button onclick=" window.open('https://www.bbcgoodfood.com/recipes/curried-chicken-new-potato-traybake')">Original Recipe</button>
       </div>
       
-    </main>    
+    </main>
+    <script src="../aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      }
+      );
+    </script> 
   </body>
 </html>

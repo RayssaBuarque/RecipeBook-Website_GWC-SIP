@@ -9,6 +9,8 @@
 	  <!-- link the webpage's stylesheet -->
 	  <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/styleRecipe.css" />
+    <link rel="stylesheet" href="../css/aos.css">
+
   </head>
 
   <body>
@@ -71,7 +73,7 @@
         </div> 
         </div>
          
-        <img class="picRecipe" src="../assets/recipes/recipe3.jpg" alt="Pancakes with syrup being poured on.">
+        <img class="picRecipe" src="../assets/recipes/recipe3.jpg" alt="Pancakes with syrup being poured on." data-aos="fade-left">
       </div>
 
       <hr>
@@ -95,6 +97,13 @@
         <button onclick=" window.open('https://blog.myfitnesspal.com/banana-oat-greek-yogurt-pancakes/')">Original Recipe</button>
       </div>
       
-    </main>    
+    </main>
+    <script src="../aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      }
+      );
+    </script>  
   </body>
 </html>
