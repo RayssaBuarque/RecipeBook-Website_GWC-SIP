@@ -11,6 +11,8 @@
 	  <!-- link the webpage's stylesheet -->
 	  <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/script.css" />
+    <link rel="stylesheet" href="css/aos.css">
+
 
 	  <!-- link the webpage's JavaScript file -->
 	  <script src="/script.js" defer></script>
@@ -20,9 +22,9 @@
   <body>
     <header>
       <div class="titleContainer">
-        <img id="header" src="assets/header.jpg" alt="A white table filled with fruits, vegetables, berries and grains.">
-        <div class="titleWebsite"><h1>HEALTHY ME</h1></div>
-        <div class="quote"><h2>To live a better life.</h2></div>
+        <img id="header" src="assets/header.jpg" alt="A white table filled with fruits, vegetables, berries and grains." >
+        <div data-aos="fade-top" class="titleWebsite"><h1>HEALTHY ME</h1></div>
+        <div data-aos="fade-top" class="quote"><h2>To live a better life.</h2></div>
       </div>
 
       <nav>
@@ -41,7 +43,7 @@
             A healthy diet is essential for good nutrition. It protects you against illnesses and chronic diseases.</p>
           </div>
 
-          <div class="item"><img alt="A white table filled with fruits, vegetables, berries and grains." src="assets/header.jpg"></div>
+          <div class="item"><img alt="A white table filled with fruits, vegetables, berries and grains." src="assets/header.jpg" data-aos="fade-left"></div>
 
           <br>
           
@@ -66,5 +68,12 @@
     </center>
     </div>
     </main>
+    <script src="../aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      }
+      );
+    </script>
   </body>
 </html>
